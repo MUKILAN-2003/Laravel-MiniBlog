@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden!important;
+}
+
 .user-logged-detail li {
     list-style: none;
 }
