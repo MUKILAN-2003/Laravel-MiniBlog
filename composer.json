@@ -38,7 +38,7 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "php artisan migrate --force"
+            "php artisan migrate:refresh --force"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
