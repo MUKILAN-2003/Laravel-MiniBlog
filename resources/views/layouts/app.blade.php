@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'MiniBlog') }}</title>
+    <title>'MiniBlog'</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -31,7 +31,7 @@
         <nav class="navbar navbar-expand-md navbar-light shadow-sm top-navbar">
             <div class="container navbar-container">
                 <a style="font-size: 34px;color: #f60;" class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'MiniBlog') }}
+                    MiniBlog
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
