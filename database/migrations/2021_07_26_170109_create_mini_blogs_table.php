@@ -18,7 +18,7 @@ class CreateMiniBlogsTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('title');
-            $table->string('body');
+            $table->string('body',2550);
             $table->timestamps();
         });
     }
