@@ -37,7 +37,7 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
+        "pre-install-cmd": [
             "php artisan migrate"
         ],
         "post-autoload-dump": [
