@@ -37,8 +37,8 @@
         }
     },
     "scripts": {
-        "pre-install-cmd": [
-            "heroku run php artisan migrate"
+        "post-install-cmd": [
+            "php artisan migrate"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
