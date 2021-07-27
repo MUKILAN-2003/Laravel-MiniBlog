@@ -36,10 +36,10 @@
             "Tests\\": "tests/"
         }
     },
-    "post-install-cmd": [
-        "php artisan migrate"
-    ],
     "scripts": {
+        "post-install-cmd": [
+            "php artisan migrate"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
