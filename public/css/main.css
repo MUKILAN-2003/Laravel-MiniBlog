@@ -1,5 +1,5 @@
-body{
-    overflow-x: hidden!important;
+body {
+    overflow-x: hidden !important;
 }
 
 .user-logged-detail li {
@@ -24,7 +24,7 @@ body{
 }
 
 .top-navbar {
-    background-color: rgba(0, 153, 255, 0.403921568627451);
+    background-color: rgb(0, 75, 126) !important;
 }
 
 .top-navbar a {
@@ -41,7 +41,7 @@ body{
 
 .blog-list h3 {
     margin-bottom: 18px;
-    font-size: 32px;
+    font-size: 30px;
     color: #f60;
 }
 
@@ -65,7 +65,8 @@ body{
 
 .blog-list:hover {
     cursor: pointer;
-    box-shadow: -2px 4px 5px rgba(0, 153, 255, 0.403921568627451);
+    background-color: rgb(255, 239, 225);
+    box-shadow: 0px 5px 10px 0px black;
     transform: scale(1.1);
 }
 
@@ -200,3 +201,4 @@ body{
     padding: 5px 10px;
     transform: scale(1.12);
 }
+

@@ -30,8 +30,8 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light shadow-sm top-navbar">
             <div class="container navbar-container">
-                <a style="font-size: 34px;color: #f60;" class="navbar-brand" href="{{ url('/') }}">
-                    MiniBlog
+                <a style="font-size: 36px;color: #f60;" class="navbar-brand" href="{{ url('/') }}">
+                    Mini-Blog
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
