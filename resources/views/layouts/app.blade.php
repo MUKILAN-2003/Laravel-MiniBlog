@@ -10,7 +10,7 @@
     <title>MiniBlog</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="js/app.js" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -84,6 +84,6 @@
             @yield('content')
         </main>
     </div>
-    <footer class="footer">Copyright &nbsp;&copy;&nbsp;2021</footer>
+    <footer class="footer">SM Bro's &nbsp;&copy;&nbsp;2021</footer>
 </body>
 </html>
