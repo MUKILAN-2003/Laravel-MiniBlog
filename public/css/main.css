@@ -11,14 +11,14 @@ body {
 }
 
 .menu-div a {
-    color: black;
+    color: white;
     padding: 5px 10px;
     transition: 0.25s;
 }
 
 .menu-div a:hover {
     background-color: transparent;
-    color: #fff;
+    color: #f60;
     padding: 5px 10px;
     transform: scale(1.12);
 }
