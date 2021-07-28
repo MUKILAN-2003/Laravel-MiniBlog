@@ -58,7 +58,7 @@ body {
     animation-duration: 1.2s;
     padding: 10px 16px;
     margin: 20px 10px;
-    transition: 0.3;
+    transition: 0.3s;
     text-align: center;
     border-bottom: 1px solid #d3d3d3;
 }
