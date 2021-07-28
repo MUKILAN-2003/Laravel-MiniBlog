@@ -44,7 +44,7 @@ body {
     margin-left: auto;
 }
 .nav-links a {
-    color: white;
+    color: white!important;
     font-weight: 700;
     text-decoration: none;
     padding: 6px;
